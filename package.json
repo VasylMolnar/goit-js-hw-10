@@ -18,19 +18,18 @@
     "url": "https://github.com/VasylMolnar/goit-js-hw-10/issues"
   },
   "dependencies": {
-    "browserslist": "^4.21.3",
     "gh-pages": "^4.0.0",
     "handlebars": "^4.7.7",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5",
-    "parcel-bundler": "^1.12.5",
-    "parcel-plugin-git-build-info": "^0.0.1"
+    "parcel-bundler": "^1.12.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.7.0",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
-  }
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
