@@ -11,7 +11,10 @@ const refs = {
   countryInfo: document.querySelector('div.country-info'),
 };
 
-refs.searchBox.addEventListener('input', debounce(searchCountry, DEBOUNCE_DELAY));
+refs.searchBox.addEventListener(
+  'input',
+  debounce(searchCountry, DEBOUNCE_DELAY)
+);
 
 function searchCountry(event) {
   const searchValue = event.target.value;
@@ -24,7 +27,9 @@ function searchCountry(event) {
   fetchCountries(searchValue)
     .then(countrys => {
       if (countrys.length > 10) {
-        Notify.info('Too many matches found. Please enter a more specific name.');
+        Notify.info(
+          'Too many matches found. Please enter a more specific name.'
+        );
         refs.countryInfo.innerHTML = '';
         refs.countryList.innerHTML = '';
         return;
