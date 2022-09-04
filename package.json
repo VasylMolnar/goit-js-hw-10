@@ -20,6 +20,7 @@
   "dependencies": {
     "browserslist": "^4.21.3",
     "gh-pages": "^4.0.0",
+    "gh-pages-deploy": "^0.5.1",
     "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.5"
